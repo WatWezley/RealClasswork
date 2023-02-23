@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0f3a8ab-46fc-4d74-a0c4-c4ce0349775a" name="Changes" comment="code war" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="eda5e89e41fac1fddc7dd3b5d1b764eb67bee1c9" />
+        <entry key="$PROJECT_DIR$/src/classWork" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/classWork" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f50e6042-8f83-428d-b084-2eace58e8ab2" />
+        <option name="url" value="https://github.com/WatWezley/DietelExercises.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/chapterfive/Menu.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/chapterfive/PhoneMenu.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/chapterfour/PowerOfNumber.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/classWork/NumberSample.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/classWork/NumberSampleApp.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/classWork/fractions.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="ArrayListTest.addXYZ_removeY_ZShouldBeInPositionOfY" />
+    </enabled-run-configurations>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GzjvtwDr3LKrz7ccphVN6vEiDR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/USER/IdeaProjects/regnosJava/src/chapterNineAndTen&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/myClassWork&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="chaptersix.GuessingGame" />
+      <recent name="chapterNineAndTen" />
+      <recent name="chapter10" />
+      <recent name="EnumExample" />
+      <recent name="chapterEightProblem" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\IdeaProjects\regnosJava\src\tortoiseandhare" />
+      <recent name="C:\Users\USER\IdeaProjects\regnosJava\src\chapterEight\Bank" />
+      <recent name="C:\Users\USER\IdeaProjects\regnosJava\src" />
+      <recent name="C:\Users\USER\IdeaProjects\regnosJava\src\chaptersix" />
+      <recent name="C:\Users\USER\IdeaProjects\regnosJava" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\IdeaProjects\regnosJava\src" />
+      <recent name="C:\Users\USER\IdeaProjects\regnosJava\src\tdd" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="chapterThree" />
+      <recent name="tdd" />
+      <recent name="chapterfour" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="chapterEight.PhoneBook" />
+      <recent name="chapterEight.Diary" />
+      <recent name="chapterEight.Bank" />
+      <recent name="chaptersix.GuessingGame" />
+      <recent name="EnumExample" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chaptersix.GuessingGame" />
+      <recent name="tdd" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assessment.guessGame.Main" />
+      <module name="regnosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assessment.guessGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="regnosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter10" />
+      <option name="MAIN_CLASS_NAME" value="chapter10.ArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest.addElement_arrayListSizeIncreases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="regnosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter10" />
+      <option name="MAIN_CLASS_NAME" value="chapter10.ArrayListTest" />
+      <option name="METHOD_NAME" value="addElement_arrayListSizeIncreases" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest.addXYZ_removeY_ZShouldBeInPositionOfY" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="regnosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter10" />
+      <option name="MAIN_CLASS_NAME" value="chapter10.ArrayListTest" />
+      <option name="METHOD_NAME" value="addXYZ_removeY_ZShouldBeInPositionOfY" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest.arrayListCanBeCreatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="regnosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter10" />
+      <option name="MAIN_CLASS_NAME" value="chapter10.ArrayListTest" />
+      <option name="METHOD_NAME" value="arrayListCanBeCreatedTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArrayListTest.arrayListCanBeCreatedTest" />
+        <item itemvalue="JUnit.ArrayListTest.addXYZ_removeY_ZShouldBeInPositionOfY" />
+        <item itemvalue="JUnit.ArrayListTest.addElement_arrayListSizeIncreases" />
+        <item itemvalue="JUnit.ArrayListTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0f3a8ab-46fc-4d74-a0c4-c4ce0349775a" name="Changes" comment="" />
+      <created>1667398545756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667398545756</updated>
+      <workItem from="1669033888477" duration="104983000" />
+      <workItem from="1669550284261" duration="1632000" />
+      <workItem from="1669551960636" duration="39456000" />
+      <workItem from="1669804996833" duration="145114000" />
+      <workItem from="1671892141617" duration="31018000" />
+      <workItem from="1672061244976" duration="601000" />
+      <workItem from="1672508277019" duration="1685000" />
+      <workItem from="1672591340674" duration="31000" />
+      <workItem from="1672662410361" duration="1280000" />
+      <workItem from="1672674157919" duration="15979000" />
+      <workItem from="1673441572798" duration="26881000" />
+      <workItem from="1674097239880" duration="4008000" />
+      <workItem from="1674126589872" duration="3955000" />
+      <workItem from="1674146019705" duration="94000" />
+      <workItem from="1674309651618" duration="324910000" />
+      <workItem from="1676514572620" duration="5515000" />
+      <workItem from="1676548019426" duration="9871000" />
+      <workItem from="1676664500264" duration="61000" />
+      <workItem from="1676664637363" duration="59000" />
+      <workItem from="1676664732904" duration="149000" />
+      <workItem from="1676665386567" duration="609000" />
+      <workItem from="1676666410116" duration="41000" />
+      <workItem from="1676666469216" duration="344000" />
+      <workItem from="1676668827772" duration="6894000" />
+      <workItem from="1677157361956" duration="475000" />
+      <workItem from="1677157873192" duration="255000" />
+      <workItem from="1677158141486" duration="188000" />
+      <workItem from="1677158357310" duration="80000" />
+      <workItem from="1677158442911" duration="159000" />
+      <workItem from="1677158609671" duration="59000" />
+      <workItem from="1677158678571" duration="267000" />
+    </task>
+    <task id="LOCAL-00001" summary="chibuzor's trouble">
+      <created>1669176709654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669176709654</updated>
+    </task>
+    <task id="LOCAL-00002" summary="code war">
+      <created>1669428288628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669428288628</updated>
+    </task>
+    <task id="LOCAL-00003" summary="code war">
+      <created>1669428493135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669428493135</updated>
+    </task>
+    <task id="LOCAL-00004" summary="code war">
+      <created>1669492558887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669492558887</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="58" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="58" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="32" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chibuzor's trouble" />
+    <MESSAGE value="code war" />
+    <option name="LAST_COMMIT_MESSAGE" value="code war" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tdd/PetrolPurchaseTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="43" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="chapterEight.Bank.Account" memberName="balance" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/regnosJava$HekkaParcelTest_dailyCollectionRate.ic" NAME="HekkaParcelTest.dailyCollectionRate Coverage Results" MODIFIED="1668970693164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tdd.*</FILTER>
+    </SUITE>
+  </component>
+</project>

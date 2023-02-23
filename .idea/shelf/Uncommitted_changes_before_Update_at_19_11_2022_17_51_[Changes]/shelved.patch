@@ -1,0 +1,219 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d0f3a8ab-46fc-4d74-a0c4-c4ce0349775a\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2GzjvtwDr3LKrz7ccphVN6vEiDR\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <created>1667398545756</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1667398545756</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 9043df3552804be54b4c7a8a2bc0c5feab16c5fd)
++++ b/.idea/workspace.xml	(date 1668876695203)
+@@ -1,36 +1,161 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="d0f3a8ab-46fc-4d74-a0c4-c4ce0349775a" name="Changes" comment="" />
++    <list default="true" id="d0f3a8ab-46fc-4d74-a0c4-c4ce0349775a" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/regnosJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/regnosJava.iml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/src/chapterThree/Cohort.java" root0="SKIP_INSPECTION" />
++    <setting file="file://$PROJECT_DIR$/src/chapterThree/Native.java" root0="SKIP_INSPECTION" />
++    <setting file="file://$PROJECT_DIR$/src/tdd/Account.java" root0="SKIP_INSPECTION" />
++    <setting file="file://$PROJECT_DIR$/src/tdd/AirConditioner.java" root0="SKIP_INSPECTION" />
++    <setting file="file://$PROJECT_DIR$/src/tdd/Bike.java" root0="SKIP_INSPECTION" />
++    <setting file="file://$PROJECT_DIR$/src/tdd/BookShop.java" root0="SKIP_INSPECTION" />
++    <setting file="file://$PROJECT_DIR$/src/tdd/PetrolPurchase.java" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/test/tdd/AccountTest.java" root0="SKIP_INSPECTION" />
++    <setting file="file://$PROJECT_DIR$/test/tdd/AirConditionerTest.java" root0="SKIP_INSPECTION" />
++    <setting file="file://$PROJECT_DIR$/test/tdd/BikeTest.java" root0="SKIP_INSPECTION" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="CurrentFile" />
++  </component>
+   <component name="ProjectId" id="2GzjvtwDr3LKrz7ccphVN6vEiDR" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false"
+-  }
+-}]]></component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
++    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
++    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
++    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;last_directory_selection&quot;: &quot;C:/Users/USER/IdeaProjects/regnosJava/src&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
++  }
++}</component>
++  <component name="RecentsManager">
++    <key name="CreateClassDialog.RecentsKey">
++      <recent name="tdd" />
++    </key>
++  </component>
++  <component name="RunManager">
++    <configuration name="PetrolPurchaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="regnosJava" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="PetrolPurchaseTest" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="PetrolPurchaseTest.percentageDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="regnosJava" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="PetrolPurchaseTest" />
++      <option name="METHOD_NAME" value="percentageDiscount" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="PetrolPurchaseTest.pricePerLitre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="regnosJava" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="PetrolPurchaseTest" />
++      <option name="METHOD_NAME" value="pricePerLitre" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="PetrolPurchaseTest.purchaseAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="regnosJava" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="PetrolPurchaseTest" />
++      <option name="METHOD_NAME" value="purchaseAmount" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="PetrolPurchaseTest.stationLocationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="regnosJava" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="PetrolPurchaseTest" />
++      <option name="METHOD_NAME" value="stationLocationTest" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="JUnit.PetrolPurchaseTest.percentageDiscount" />
++        <item itemvalue="JUnit.PetrolPurchaseTest" />
++        <item itemvalue="JUnit.PetrolPurchaseTest.stationLocationTest" />
++        <item itemvalue="JUnit.PetrolPurchaseTest.purchaseAmount" />
++        <item itemvalue="JUnit.PetrolPurchaseTest.pricePerLitre" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
++      <changelist id="d0f3a8ab-46fc-4d74-a0c4-c4ce0349775a" name="Changes" comment="" />
+       <created>1667398545756</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1667398545756</updated>
++      <workItem from="1667398556060" duration="46222000" />
++      <workItem from="1667789420173" duration="52850000" />
++      <workItem from="1668411430739" duration="54847000" />
++      <workItem from="1668825714482" duration="13999000" />
+     </task>
+     <servers />
+   </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: regnosJava.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/regnosJava.iml b/regnosJava.iml
+--- a/regnosJava.iml	(revision 9043df3552804be54b4c7a8a2bc0c5feab16c5fd)
++++ b/regnosJava.iml	(date 1667488725161)
+@@ -4,8 +4,25 @@
+     <exclude-output />
+     <content url="file://$MODULE_DIR$">
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="module-library" scope="TEST">
++      <library name="JUnit5.8.1">
++        <CLASSES>
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
+   </component>
+ </module>
+\ No newline at end of file

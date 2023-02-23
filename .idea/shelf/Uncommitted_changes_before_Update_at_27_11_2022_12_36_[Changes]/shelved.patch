@@ -1,0 +1,1048 @@
+Index: src/chapterfive/Menu.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package chapterfive;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Menu {\r\n\r\n\r\n    public String phoneBook() {\r\n\r\n        System.out.println(\"\"\"\r\n                1. Search\r\n                2. Service Nos\r\n                3. Add name\r\n                4. Erase\r\n                5. Edit\r\n                6. Assign Tone\r\n                7. Send b'card\r\n                8. Options\r\n                9. Speed dials\r\n                10.Voice tags\r\n                \"\"\");\r\n        Scanner scanner = new Scanner(System.in);\r\n\r\n        System.out.println(\"Enter an Option:\");\r\n        int input = scanner.nextInt();\r\n        switch (input) {\r\n            case 1:\r\n                System.out.println(\"Search\");\r\n                break;\r\n            case 2:\r\n                System.out.println(\"Service Nos\");\r\n                break;\r\n            case 3:\r\n                System.out.println(\"Add Name\");\r\n                break;\r\n            case 4:\r\n                System.out.println(\"Erase\");\r\n                break;\r\n            case 5:\r\n                System.out.println(\"Edit\");\r\n                break;\r\n            case 6:\r\n                System.out.println(\"Assign Tone\");\r\n                break;\r\n            case 7:\r\n                System.out.println(\"Send b'card\");\r\n                break;\r\n            case 8:\r\n                System.out.println(\"\"\"\r\n                        1. Type of views\r\n                        2. Memory Status\r\n                        \"\"\");\r\n                System.out.println(\"Enter an option:\");\r\n                int option = scanner.nextInt();\r\n                switch (option) {\r\n                    case 1:\r\n                        System.out.println(\"Type of view\");\r\n                        break;\r\n                    case 2:\r\n                        System.out.println(\"Memory Status\");\r\n                        break;\r\n                }\r\n                break;\r\n            case 9:\r\n                System.out.println(\"Speed Dial\");\r\n                break;\r\n            case 10:\r\n                System.out.println(\"Voice Tags\");\r\n                break;\r\n            default:\r\n                System.out.println(\"Enter the correct options\");\r\n                break;\r\n        }\r\n        return null;\r\n    }\r\n\r\n\r\n    public String messages() {\r\n\r\n        System.out.println(\"\"\"\r\n                1. Write Messages\r\n                2. Inbox\r\n                3. Outbox\r\n                4. Picture messages\r\n                5. Template\r\n                6. Smiley\r\n                7. Messages settings\r\n                8. Info service\r\n                9. Voice mailbox number\r\n                10.Service Command Editor\r\n                \"\"\");\r\n        Scanner scanner = new Scanner(System.in);\r\n\r\n        System.out.println(\"Enter an Option:\");\r\n        int input = scanner.nextInt();\r\n        switch (input) {\r\n            case 1:\r\n                System.out.println(\"Write Messages\");\r\n                break;\r\n            case 2:\r\n                System.out.println(\"Inbox\");\r\n                break;\r\n            case 3:\r\n                System.out.println(\"Outbox\");\r\n                break;\r\n            case 4:\r\n                System.out.println(\"Picture Messages\");\r\n                break;\r\n            case 5:\r\n                System.out.println(\"Templates\");\r\n                break;\r\n            case 6:\r\n                System.out.println(\"Smileys\");\r\n                break;\r\n            case 7:\r\n                messageSettings();\r\n                break;\r\n            case 8:\r\n                System.out.println(\"Info Services\");\r\n                break;\r\n            case 9:\r\n                System.out.println(\"Voice mailbox number\");\r\n                break;\r\n            case 10:\r\n                System.out.println(\"Service Command Editor\");\r\n                break;\r\n            default:\r\n                System.out.println(\"Enter the correct options\");\r\n                break;\r\n        }\r\n        return null;\r\n    }\r\n\r\n    public String messageSettings() {\r\n        System.out.println(\"\"\"\r\n                1. Set\r\n                2. Common\r\n                \"\"\");\r\n        System.out.println(\"Enter an option:\");\r\n        Scanner scanner = new Scanner(System.in);\r\n        int option1 = scanner.nextInt();\r\n        switch (option1) {\r\n            case 1:\r\n                System.out.println(\"\"\"\r\n                        1. Message centre number\r\n                        2. Messages sent as\r\n                        3. Messages validity\r\n                        \"\"\");\r\n                System.out.println(\"Enter an option:\");\r\n                int option2 = scanner.nextInt();\r\n                switch (option2) {\r\n                    case 1:\r\n                        System.out.println(\"Message centre number\");\r\n                        break;\r\n                    case 2:\r\n                        System.out.println(\"Messages sent as\");\r\n                        break;\r\n                    case 3:\r\n                        System.out.println(\"Messages validity\");\r\n                        break;\r\n                }\r\n                break;\r\n            case 2:\r\n                System.out.println(\"\"\"\r\n                        1. Delivery Reports\r\n                        2. Reply via same centre\r\n                        3. Character support\r\n                        \"\"\");\r\n                System.out.println(\"Enter an option:\");\r\n                int option = scanner.nextInt();\r\n                switch (option) {\r\n                    case 1:\r\n                        System.out.println(\"Delivery Reports\");\r\n                        break;\r\n                    case 2:\r\n                        System.out.println(\"Reply via same centre\");\r\n                        break;\r\n                    case 3:\r\n                        System.out.println(\"Character support\");\r\n                        break;}\r\n            default: System.out.println(\" Enter the right option:\");\r\n                break;\r\n                }\r\n\r\n        return null;\r\n    }\r\n\r\n\r\n    public String callRegister() {\r\n        System.out.println(\"\"\"\r\n                1. Missed Calls\r\n                2. Received Calls\r\n                3. Dialled Calls\r\n                4. Erase Recent Call Lists\r\n                5. Show Call Duration\r\n                6. Show Call Costs\r\n                7. Call Cost Settings\r\n                8. Prepaid Credit\r\n                            \r\n                \"\"\");\r\n        Scanner scanner = new Scanner(System.in);\r\n\r\n        System.out.println(\"Enter an Option:\");\r\n        int input = scanner.nextInt();\r\n        switch (input) {\r\n            case 1:\r\n                System.out.println(\"Missed Calls\");\r\n                break;\r\n            case 2:\r\n                System.out.println(\"Received Calls\");\r\n                break;\r\n            case 3:\r\n                System.out.println(\"Dialled Calls\");\r\n                break;\r\n            case 4:\r\n                System.out.println(\"Erase Recent Call Lists\");\r\n                break;\r\n            case 5:\r\n                showCallDuration();\r\n                break;\r\n            case 6:\r\n                showCallCosts();\r\n                break;\r\n            case 7:\r\n                callCostSettings();\r\n                break;\r\n            case 8:\r\n                System.out.println(\"Prepaid Credit\");\r\n                break;\r\n            default: System.out.println(\" Enter the right option:\");\r\n                break;\r\n        }\r\n        return null;\r\n\r\n    }\r\n\r\n\r\n    private String callCostSettings() {\r\n        System.out.println(\"\"\"\r\n                1. Call Cost Limit\r\n                2. Show Cost in\r\n              \"\"\");\r\n        Scanner scanner = new Scanner(System.in);\r\n\r\n        System.out.println(\"Enter an Option:\");\r\n        int input = scanner.nextInt();\r\n        switch (input) {\r\n            case 1:\r\n                System.out.println(\"Call Cost Limit\");\r\n                break;\r\n            case 2:\r\n                System.out.println(\"Show Cost in\");\r\n                break;\r\n            default: System.out.println(\" Enter the right option:\");\r\n                break;}\r\n        return null;\r\n    }\r\n\r\n    private String showCallCosts() {\r\n        System.out.println(\"\"\"\r\n                1. Last Call Cost\r\n                2. All Calls Cost\r\n                3. Clear Counters            \r\n                \"\"\");\r\n        Scanner scanner = new Scanner(System.in);\r\n\r\n        System.out.println(\"Enter an Option:\");\r\n        int input = scanner.nextInt();\r\n        switch (input) {\r\n            case 1:\r\n                System.out.println(\"Last Call Cost\");\r\n                break;\r\n            case 2:\r\n                System.out.println(\"All Calls Cost\");\r\n                break;\r\n            case 3:\r\n                System.out.println(\"Clear Counters\");\r\n                break;\r\n            default: System.out.println(\" Enter the right option:\");\r\n                break;}\r\n        return null;\r\n    }\r\n\r\n    private String  showCallDuration() {\r\n        System.out.println(\"\"\"\r\n                1. Last Call Duration\r\n                2. All Calls Duration\r\n                3. Received Calls Duration\r\n                4. Dialled Calls Duration\r\n                5. Clear Timers\r\n                 \"\"\");\r\n        Scanner scanner = new Scanner(System.in);\r\n\r\n        System.out.println(\"Enter an Option:\");\r\n        int input = scanner.nextInt();\r\n        switch (input) {\r\n            case 1:\r\n                System.out.println(\"Last Call Duration\");\r\n                break;\r\n            case 2:\r\n                System.out.println(\"All Calls Duration\");\r\n                break;\r\n            case 3:\r\n                System.out.println(\" Received Calls Duration\");\r\n                break;\r\n            case 4:\r\n                System.out.println(\"Dialled Calls Duration\");\r\n                break;\r\n            case 5:\r\n                System.out.println(\"Clear timer\");;\r\n                break;\r\n            default: System.out.println(\" Enter the right option:\");\r\n                break;\r\n        }\r\n        return null;\r\n    }\r\n\r\npublic String tones(){\r\n    System.out.println(\"\"\"\r\n                1. Ringing Tone\r\n                2. Ringing Volume\r\n                3. Incoming Call Alert\r\n                4. Composer\r\n                5. Message Alert Tone\r\n                6. Keypad Tones\r\n                7. Warning and Game Tones\r\n                8. Vibrating Alert\r\n                9. Screen Saver\r\n                \"\"\");\r\n    Scanner scanner = new Scanner(System.in);\r\n\r\n    System.out.println(\"Enter an Option:\");\r\n    int input = scanner.nextInt();\r\n    switch (input) {\r\n        case 1:\r\n            System.out.println(\"Ringing Tone\");\r\n            break;\r\n        case 2:\r\n            System.out.println(\"Ringing Volume\");\r\n            break;\r\n        case 3:\r\n            System.out.println(\"Incoming Call Alert\");\r\n            break;\r\n        case 4:\r\n            System.out.println(\"Composer\");\r\n            break;\r\n        case 5:\r\n            System.out.println(\"Message Alert Tone\");\r\n            break;\r\n        case 6:\r\n            System.out.println(\"Keypad Tones\");\r\n            break;\r\n        case 7:\r\n            System.out.println(\"Warning and Game Tones\");\r\n            break;\r\n        case 8:\r\n            System.out.println(\"Vibrating Alert\");\r\n            break;\r\n        case 9:\r\n            System.out.println(\"Screen Saver\");\r\n            break;\r\n        default: System.out.println(\" Enter the right option:\");\r\n            break;\r\n    }\r\n    return null;\r\n}\r\n\r\n\r\npublic String settings(){\r\n    System.out.println(\"\"\"\r\n                1. Call Settings\r\n                2. Phone Settings\r\n                3. Security Settings\r\n                4. Restore Factory Settings\r\n                 \"\"\");\r\n    Scanner scanner = new Scanner(System.in);\r\n\r\n    System.out.println(\"Enter an Option:\");\r\n    int input = scanner.nextInt();\r\n    switch (input) {\r\n        case 1:\r\n            callSettings();\r\n            break;\r\n        case 2:\r\n            phoneSettings();\r\n            break;\r\n        case 3:\r\n            securitySettings();\r\n            break;\r\n        case 4:\r\n            System.out.println(\"Restore Factory Settings\");\r\n            break;\r\n        default: System.out.println(\" Enter the right option:\");\r\n            break;}\r\n\r\n    return null;\r\n}\r\n\r\n\r\n    private String callSettings() {\r\n        System.out.println(\"\"\"\r\n                1. Automatic Redial\r\n                2. Speed Dialing\r\n                3. Call Waiting Options\r\n                4. Own Number Sending\r\n                5. Phone Line in Use\r\n                6. Automatic Answer\r\n                \"\"\");\r\n        Scanner scanner = new Scanner(System.in);\r\n\r\n        System.out.println(\"Enter an Option:\");\r\n        int input = scanner.nextInt();\r\n        switch (input) {\r\n            case 1:\r\n                System.out.println(\"Automatic Redial\");\r\n                break;\r\n            case 2:\r\n                System.out.println(\"Speed Dialing\");\r\n                break;\r\n            case 3:\r\n                System.out.println(\"Call Waiting Options\");\r\n                break;\r\n            case 4:\r\n                System.out.println(\"Own Number Sending\");\r\n                break;\r\n            case 5:\r\n                System.out.println(\"Phone Line in Use\");\r\n                break;\r\n            case 6:\r\n                System.out.println(\"Automatic Answer\");\r\n                break;\r\n            default: System.out.println(\" Enter the right option:\");\r\n                break;}\r\n        return null;\r\n    }\r\n\r\n    private String phoneSettings() {\r\n        System.out.println(\"\"\"\r\n                1. Language\r\n                2. Cell Info Display\r\n                3. Welcome Note\r\n                4. Network Selection\r\n                5. Light\r\n                6. Confirm SIM Service Action\r\n                \"\"\");\r\n        Scanner scanner = new Scanner(System.in);\r\n\r\n        System.out.println(\"Enter an Option:\");\r\n        int input = scanner.nextInt();\r\n        switch (input) {\r\n            case 1:\r\n                System.out.println(\"Language\");\r\n                break;\r\n            case 2:\r\n                System.out.println(\"Cell Info Display\");\r\n                break;\r\n            case 3:\r\n                System.out.println(\"Welcome Note\");\r\n                break;\r\n            case 4:\r\n                System.out.println(\"Network Selection\");\r\n                break;\r\n            case 5:\r\n                System.out.println(\"Light\");\r\n                break;\r\n            case 6:\r\n                System.out.println(\"Confirm SIM Service Action\");\r\n                break;\r\n            default: System.out.println(\" Enter the right option:\");\r\n                break;}\r\n        return null;\r\n    }\r\n\r\n    private String securitySettings() {\r\n        System.out.println(\"\"\"\r\n                1. Pin Code Request\r\n                2. Call Barring Service\r\n                3. Fixed Dialing\r\n                4. Closed User Group\r\n                5. Phone Security\r\n                6. Change Access Codes\r\n                \"\"\");\r\n        Scanner scanner = new Scanner(System.in);\r\n\r\n        System.out.println(\"Enter an Option:\");\r\n        int input = scanner.nextInt();\r\n        switch (input) {\r\n            case 1:\r\n                System.out.println(\"Pin Code Request\");\r\n                break;\r\n            case 2:\r\n                System.out.println(\"Call Barring Service\");\r\n                break;\r\n            case 3:\r\n                System.out.println(\"Fixed Dialing\");\r\n                break;\r\n            case 4:\r\n                System.out.println(\"Closed User Group\");\r\n                break;\r\n            case 5:\r\n                System.out.println(\"Phone Security\");\r\n                break;\r\n            case 6:\r\n                System.out.println(\"Change Access Codes\");\r\n                break;\r\n            default: System.out.println(\" Enter the right option:\");\r\n                break;}\r\n        return null;\r\n    }\r\n\r\n    public String clock() {\r\n            System.out.println(\"\"\"\r\n                1. Alarm Clock\r\n                2. Clock Settings\r\n                3. Date Setting\r\n                4. Stopwatch\r\n                5. Countdown Timer\r\n                6. Auto Update of Date and Time\r\n                \"\"\");\r\n            Scanner scanner = new Scanner(System.in);\r\n\r\n            System.out.println(\"Enter an Option:\");\r\n            int input = scanner.nextInt();\r\n            switch (input) {\r\n                case 1:\r\n                    System.out.println(\"Alarm Clock\");\r\n                    break;\r\n                case 2:\r\n                    System.out.println(\"Clock Settings\");\r\n                    break;\r\n                case 3:\r\n                    System.out.println(\"Date Setting\");\r\n                    break;\r\n                case 4:\r\n                    System.out.println(\"Stopwatch\");\r\n                    break;\r\n                case 5:\r\n                    System.out.println(\"Countdown Timer\");\r\n                    break;\r\n                case 6:\r\n                    System.out.println(\"Auto Update of Date and Time\");\r\n                    break;\r\n                default: System.out.println(\" Enter the right option:\");\r\n                    break;}\r\n            return null;\r\n\r\n    }\r\n\r\n}\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/chapterfive/Menu.java b/src/chapterfive/Menu.java
+--- a/src/chapterfive/Menu.java	(revision 89575dd34edf653522bddb4a6fa043ebd1c3257e)
++++ b/src/chapterfive/Menu.java	(date 1669542773868)
+@@ -18,60 +18,58 @@
+                 8. Options
+                 9. Speed dials
+                 10.Voice tags
++                11.Back
+                 """);
+         Scanner scanner = new Scanner(System.in);
+ 
+         System.out.println("Enter an Option:");
+         int input = scanner.nextInt();
+         switch (input) {
+-            case 1:
+-                System.out.println("Search");
+-                break;
+-            case 2:
+-                System.out.println("Service Nos");
+-                break;
+-            case 3:
+-                System.out.println("Add Name");
+-                break;
+-            case 4:
+-                System.out.println("Erase");
+-                break;
+-            case 5:
+-                System.out.println("Edit");
+-                break;
+-            case 6:
+-                System.out.println("Assign Tone");
+-                break;
+-            case 7:
+-                System.out.println("Send b'card");
+-                break;
+-            case 8:
+-                System.out.println("""
+-                        1. Type of views
+-                        2. Memory Status
+-                        """);
+-                System.out.println("Enter an option:");
+-                int option = scanner.nextInt();
+-                switch (option) {
+-                    case 1:
+-                        System.out.println("Type of view");
+-                        break;
+-                    case 2:
+-                        System.out.println("Memory Status");
+-                        break;
+-                }
++            case 1: System.out.println("Search");
++                    break;
++            case 2: System.out.println("Service Nos");
++                    break;
++            case 3: System.out.println("Add Name");
++                    break;
++            case 4: System.out.println("Erase");
++                    break;
++            case 5: System.out.println("Edit");
++                    break;
++            case 6: System.out.println("Assign Tone");
++                    break;
++            case 7: System.out.println("Send b'card");
++                    break;
++            case 8: options();
++                    break;
++            case 9: System.out.println("Speed Dial");
++                    break;
++            case 10:System.out.println("Voice Tags");
++                    break;
++            case  11:mainMenu();
++                    break;
++        }
++        return phoneBook();
++    }
++
++
++    public String options() {
++        System.out.println("""
++                1. Type of views
++                2. Memory Status
++                3. Back
++                """);
++        Scanner scanner = new Scanner(System.in);
++        System.out.println("Enter an option:");
++        int option = scanner.nextInt();
++        switch (option) {
++            case 1: System.out.println("Type of view");
+                 break;
+-            case 9:
+-                System.out.println("Speed Dial");
++            case 2: System.out.println("Memory Status");
+                 break;
+-            case 10:
+-                System.out.println("Voice Tags");
++            case 3: callRegister();
+                 break;
+-            default:
+-                System.out.println("Enter the correct options");
+-                break;
+         }
+-        return null;
++        return options();
+     }
+ 
+ 
+@@ -88,53 +86,44 @@
+                 8. Info service
+                 9. Voice mailbox number
+                 10.Service Command Editor
++                11. Back
+                 """);
+         Scanner scanner = new Scanner(System.in);
+ 
+         System.out.println("Enter an Option:");
+         int input = scanner.nextInt();
+         switch (input) {
+-            case 1:
+-                System.out.println("Write Messages");
+-                break;
+-            case 2:
+-                System.out.println("Inbox");
+-                break;
+-            case 3:
+-                System.out.println("Outbox");
+-                break;
+-            case 4:
+-                System.out.println("Picture Messages");
+-                break;
+-            case 5:
+-                System.out.println("Templates");
+-                break;
+-            case 6:
+-                System.out.println("Smileys");
+-                break;
+-            case 7:
+-                messageSettings();
+-                break;
+-            case 8:
+-                System.out.println("Info Services");
+-                break;
+-            case 9:
+-                System.out.println("Voice mailbox number");
+-                break;
+-            case 10:
+-                System.out.println("Service Command Editor");
+-                break;
+-            default:
+-                System.out.println("Enter the correct options");
+-                break;
++            case 1: System.out.println("Write Messages");
++                    break;
++            case 2: System.out.println("Inbox");
++                    break;
++            case 3: System.out.println("Outbox");
++                    break;
++            case 4: System.out.println("Picture Messages");
++                    break;
++            case 5: System.out.println("Templates");
++                    break;
++            case 6: System.out.println("Smileys");
++                    break;
++            case 7: messageSettings();
++                    break;
++            case 8: System.out.println("Info Services");
++                    break;
++            case 9: System.out.println("Voice mailbox number");
++                    break;
++            case 10:System.out.println("Service Command Editor");
++                    break;
++            case 11: mainMenu();
++                    break;
+         }
+-        return null;
++        return messages();
+     }
+ 
+     public String messageSettings() {
+         System.out.println("""
+                 1. Set
+                 2. Common
++                3. Back
+                 """);
+         System.out.println("Enter an option:");
+         Scanner scanner = new Scanner(System.in);
+@@ -145,19 +134,19 @@
+                         1. Message centre number
+                         2. Messages sent as
+                         3. Messages validity
++                        4. Back
+                         """);
+                 System.out.println("Enter an option:");
+                 int option2 = scanner.nextInt();
+                 switch (option2) {
+-                    case 1:
+-                        System.out.println("Message centre number");
+-                        break;
+-                    case 2:
+-                        System.out.println("Messages sent as");
+-                        break;
+-                    case 3:
+-                        System.out.println("Messages validity");
+-                        break;
++                    case 1: System.out.println("Message centre number");
++                            break;
++                    case 2: System.out.println("Messages sent as");
++                            break;
++                    case 3: System.out.println("Messages validity");
++                            break;
++                    case 4: messageSettings();
++
+                 }
+                 break;
+             case 2:
+@@ -165,24 +154,24 @@
+                         1. Delivery Reports
+                         2. Reply via same centre
+                         3. Character support
++                        4. Back
+                         """);
+                 System.out.println("Enter an option:");
+                 int option = scanner.nextInt();
+                 switch (option) {
+-                    case 1:
+-                        System.out.println("Delivery Reports");
+-                        break;
+-                    case 2:
+-                        System.out.println("Reply via same centre");
+-                        break;
+-                    case 3:
+-                        System.out.println("Character support");
+-                        break;}
+-            default: System.out.println(" Enter the right option:");
++                    case 1: System.out.println("Delivery Reports");
++                            break;
++                    case 2: System.out.println("Reply via same centre");
++                            break;
++                    case 3: System.out.println("Character support");
++                            break;
++                    case 4: messageSettings();
++                }
++            case 3: messages();
+                 break;
+-                }
++        }
+ 
+-        return null;
++        return messageSettings();
+     }
+ 
+ 
+@@ -196,7 +185,7 @@
+                 6. Show Call Costs
+                 7. Call Cost Settings
+                 8. Prepaid Credit
+-                            
++                9. Back            
+                 """);
+         Scanner scanner = new Scanner(System.in);
+ 
+@@ -227,96 +216,91 @@
+             case 8:
+                 System.out.println("Prepaid Credit");
+                 break;
+-            default: System.out.println(" Enter the right option:");
++            case 9: mainMenu();
+                 break;
+         }
+-        return null;
++        return callRegister();
+ 
+     }
+ 
+ 
+     private String callCostSettings() {
+         System.out.println("""
+-                1. Call Cost Limit
+-                2. Show Cost in
+-              """);
++                  1. Call Cost Limit
++                  2. Show Cost in
++                  3. Back
++                """);
+         Scanner scanner = new Scanner(System.in);
+ 
+         System.out.println("Enter an Option:");
+         int input = scanner.nextInt();
+         switch (input) {
+-            case 1:
+-                System.out.println("Call Cost Limit");
+-                break;
+-            case 2:
+-                System.out.println("Show Cost in");
+-                break;
+-            default: System.out.println(" Enter the right option:");
+-                break;}
+-        return null;
++            case 1: System.out.println("Call Cost Limit");
++                    break;
++            case 2: System.out.println("Show Cost in");
++                    break;
++            case 3: callRegister();
++                    break;
++        }
++        return callCostSettings();
+     }
+ 
+     private String showCallCosts() {
+         System.out.println("""
+                 1. Last Call Cost
+                 2. All Calls Cost
+-                3. Clear Counters            
++                3. Clear Counters 
++                4. Back           
+                 """);
+         Scanner scanner = new Scanner(System.in);
+ 
+         System.out.println("Enter an Option:");
+         int input = scanner.nextInt();
+         switch (input) {
+-            case 1:
+-                System.out.println("Last Call Cost");
+-                break;
+-            case 2:
+-                System.out.println("All Calls Cost");
+-                break;
+-            case 3:
+-                System.out.println("Clear Counters");
+-                break;
+-            default: System.out.println(" Enter the right option:");
+-                break;}
+-        return null;
++            case 1: System.out.println("Last Call Cost");
++                    break;
++            case 2: System.out.println("All Calls Cost");
++                    break;
++            case 3: System.out.println("Clear Counters");
++                    break;
++            case 4: callRegister();
++                    break;
++        }
++        return showCallCosts();
+     }
+ 
+-    private String  showCallDuration() {
++    private String showCallDuration() {
+         System.out.println("""
+                 1. Last Call Duration
+                 2. All Calls Duration
+                 3. Received Calls Duration
+                 4. Dialled Calls Duration
+                 5. Clear Timers
++                6. Back
+                  """);
+         Scanner scanner = new Scanner(System.in);
+ 
+         System.out.println("Enter an Option:");
+         int input = scanner.nextInt();
+         switch (input) {
+-            case 1:
+-                System.out.println("Last Call Duration");
+-                break;
+-            case 2:
+-                System.out.println("All Calls Duration");
+-                break;
+-            case 3:
+-                System.out.println(" Received Calls Duration");
+-                break;
+-            case 4:
+-                System.out.println("Dialled Calls Duration");
+-                break;
+-            case 5:
+-                System.out.println("Clear timer");;
+-                break;
+-            default: System.out.println(" Enter the right option:");
+-                break;
++            case 1: System.out.println("Last Call Duration");
++                    break;
++            case 2: System.out.println("All Calls Duration");
++                    break;
++            case 3: System.out.println(" Received Calls Duration");
++                    break;
++            case 4: System.out.println("Dialled Calls Duration");
++                    break;
++            case 5: System.out.println("Clear timer");
++                    break;
++            case 6: callRegister();
++                    break;
+         }
+-        return null;
++        return showCallDuration();
+     }
+ 
+-public String tones(){
+-    System.out.println("""
++    public String tones() {
++        System.out.println("""
+                 1. Ringing Tone
+                 2. Ringing Volume
+                 3. Incoming Call Alert
+@@ -326,75 +310,65 @@
+                 7. Warning and Game Tones
+                 8. Vibrating Alert
+                 9. Screen Saver
++                10.Back
+                 """);
+-    Scanner scanner = new Scanner(System.in);
++        Scanner scanner = new Scanner(System.in);
+ 
+-    System.out.println("Enter an Option:");
+-    int input = scanner.nextInt();
+-    switch (input) {
+-        case 1:
+-            System.out.println("Ringing Tone");
+-            break;
+-        case 2:
+-            System.out.println("Ringing Volume");
+-            break;
+-        case 3:
+-            System.out.println("Incoming Call Alert");
+-            break;
+-        case 4:
+-            System.out.println("Composer");
+-            break;
+-        case 5:
+-            System.out.println("Message Alert Tone");
+-            break;
+-        case 6:
+-            System.out.println("Keypad Tones");
+-            break;
+-        case 7:
+-            System.out.println("Warning and Game Tones");
+-            break;
+-        case 8:
+-            System.out.println("Vibrating Alert");
+-            break;
+-        case 9:
+-            System.out.println("Screen Saver");
+-            break;
+-        default: System.out.println(" Enter the right option:");
+-            break;
+-    }
+-    return null;
+-}
++        System.out.println("Enter an Option:");
++        int input = scanner.nextInt();
++        switch (input) {
++            case 1: System.out.println("Ringing Tone");
++                    break;
++            case 2: System.out.println("Ringing Volume");
++                    break;
++            case 3: System.out.println("Incoming Call Alert");
++                    break;
++            case 4: System.out.println("Composer");
++                    break;
++            case 5: System.out.println("Message Alert Tone");
++                    break;
++            case 6: System.out.println("Keypad Tones");
++                    break;
++            case 7: System.out.println("Warning and Game Tones");
++                    break;
++            case 8: System.out.println("Vibrating Alert");
++                    break;
++            case 9: System.out.println("Screen Saver");
++                    break;
++            case 10: mainMenu();
++                    break;
++        }
++        return tones();
++    }
+ 
+ 
+-public String settings(){
+-    System.out.println("""
++    public String settings() {
++        System.out.println("""
+                 1. Call Settings
+                 2. Phone Settings
+                 3. Security Settings
+                 4. Restore Factory Settings
++                5. Back
+                  """);
+-    Scanner scanner = new Scanner(System.in);
++        Scanner scanner = new Scanner(System.in);
+ 
+-    System.out.println("Enter an Option:");
+-    int input = scanner.nextInt();
+-    switch (input) {
+-        case 1:
+-            callSettings();
+-            break;
+-        case 2:
+-            phoneSettings();
+-            break;
+-        case 3:
+-            securitySettings();
+-            break;
+-        case 4:
+-            System.out.println("Restore Factory Settings");
+-            break;
+-        default: System.out.println(" Enter the right option:");
+-            break;}
++        System.out.println("Enter an Option:");
++        int input = scanner.nextInt();
++        switch (input) {
++            case 1: callSettings();
++                    break;
++            case 2: phoneSettings();
++                    break;
++            case 3: securitySettings();
++                    break;
++            case 4: System.out.println("Restore Factory Settings");
++                    break;
++            case 5: mainMenu();
++                    break;
++        }
+ 
+-    return null;
+-}
++        return settings();
++    }
+ 
+ 
+     private String callSettings() {
+@@ -405,34 +379,33 @@
+                 4. Own Number Sending
+                 5. Phone Line in Use
+                 6. Automatic Answer
++                7. Back
+                 """);
+         Scanner scanner = new Scanner(System.in);
+ 
+         System.out.println("Enter an Option:");
+         int input = scanner.nextInt();
+         switch (input) {
+-            case 1:
+-                System.out.println("Automatic Redial");
+-                break;
+-            case 2:
+-                System.out.println("Speed Dialing");
+-                break;
+-            case 3:
+-                System.out.println("Call Waiting Options");
+-                break;
+-            case 4:
+-                System.out.println("Own Number Sending");
+-                break;
+-            case 5:
+-                System.out.println("Phone Line in Use");
+-                break;
+-            case 6:
+-                System.out.println("Automatic Answer");
+-                break;
+-            default: System.out.println(" Enter the right option:");
+-                break;}
+-        return null;
++            case 1: System.out.println("Automatic Redial");
++                    break;
++            case 2: System.out.println("Speed Dialing");
++                    break;
++            case 3: System.out.println("Call Waiting Options");
++                    break;
++            case 4: System.out.println("Own Number Sending");
++                    break;
++            case 5: System.out.println("Phone Line in Use");
++                    break;
++            case 6: System.out.println("Automatic Answer");
++                    break;
++            case 7: settings();
++                    break;
++        }
++        return callSettings();
+     }
++
++
++
+ 
+     private String phoneSettings() {
+         System.out.println("""
+@@ -442,33 +415,29 @@
+                 4. Network Selection
+                 5. Light
+                 6. Confirm SIM Service Action
++                7. Back
+                 """);
+         Scanner scanner = new Scanner(System.in);
+ 
+         System.out.println("Enter an Option:");
+         int input = scanner.nextInt();
+         switch (input) {
+-            case 1:
+-                System.out.println("Language");
+-                break;
+-            case 2:
+-                System.out.println("Cell Info Display");
+-                break;
+-            case 3:
+-                System.out.println("Welcome Note");
+-                break;
+-            case 4:
+-                System.out.println("Network Selection");
+-                break;
+-            case 5:
+-                System.out.println("Light");
+-                break;
+-            case 6:
+-                System.out.println("Confirm SIM Service Action");
+-                break;
+-            default: System.out.println(" Enter the right option:");
+-                break;}
+-        return null;
++            case 1: System.out.println("Language");
++                    break;
++            case 2: System.out.println("Cell Info Display");
++                    break;
++            case 3: System.out.println("Welcome Note");
++                    break;
++            case 4: System.out.println("Network Selection");
++                    break;
++            case 5: System.out.println("Light");
++                    break;
++            case 6: System.out.println("Confirm SIM Service Action");
++                    break;
++            case 7: settings();
++                    break;
++        }
++        return phoneSettings();
+     }
+ 
+     private String securitySettings() {
+@@ -479,73 +448,124 @@
+                 4. Closed User Group
+                 5. Phone Security
+                 6. Change Access Codes
++                7. Back
+                 """);
+         Scanner scanner = new Scanner(System.in);
+ 
+         System.out.println("Enter an Option:");
+         int input = scanner.nextInt();
+         switch (input) {
+-            case 1:
+-                System.out.println("Pin Code Request");
+-                break;
+-            case 2:
+-                System.out.println("Call Barring Service");
+-                break;
+-            case 3:
+-                System.out.println("Fixed Dialing");
+-                break;
+-            case 4:
+-                System.out.println("Closed User Group");
+-                break;
+-            case 5:
+-                System.out.println("Phone Security");
+-                break;
+-            case 6:
+-                System.out.println("Change Access Codes");
+-                break;
+-            default: System.out.println(" Enter the right option:");
+-                break;}
+-        return null;
++            case 1: System.out.println("Pin Code Request");
++                    break;
++            case 2: System.out.println("Call Barring Service");
++                    break;
++            case 3: System.out.println("Fixed Dialing");
++                    break;
++            case 4: System.out.println("Closed User Group");
++                    break;
++            case 5: System.out.println("Phone Security");
++                    break;
++            case 6: System.out.println("Change Access Codes");
++                    break;
++            case 7: settings();
++                    break;
++        }
++        return settings();
+     }
+ 
+     public String clock() {
+-            System.out.println("""
++        System.out.println("""
+                 1. Alarm Clock
+                 2. Clock Settings
+                 3. Date Setting
+                 4. Stopwatch
+                 5. Countdown Timer
+                 6. Auto Update of Date and Time
++                7. Back
+                 """);
+-            Scanner scanner = new Scanner(System.in);
++        Scanner scanner = new Scanner(System.in);
+ 
+-            System.out.println("Enter an Option:");
+-            int input = scanner.nextInt();
+-            switch (input) {
+-                case 1:
+-                    System.out.println("Alarm Clock");
++        System.out.println("Enter an Option:");
++        int input = scanner.nextInt();
++        switch (input) {
++            case 1: System.out.println("Alarm Clock");
+                     break;
+-                case 2:
+-                    System.out.println("Clock Settings");
++            case 2: System.out.println("Clock Settings");
+                     break;
+-                case 3:
+-                    System.out.println("Date Setting");
++            case 3: System.out.println("Date Setting");
+                     break;
+-                case 4:
+-                    System.out.println("Stopwatch");
++            case 4: System.out.println("Stopwatch");
+                     break;
+-                case 5:
+-                    System.out.println("Countdown Timer");
++            case 5: System.out.println("Countdown Timer");
+                     break;
+-                case 6:
+-                    System.out.println("Auto Update of Date and Time");
++            case 6: System.out.println("Auto Update of Date and Time");
+                     break;
+-                default: System.out.println(" Enter the right option:");
+-                    break;}
+-            return null;
++            case 7: mainMenu();
++                    break;
++        }
++        return clock();
++
++    }
++
++
++    public String mainMenu(){
++        System.out.println("""
++                1. phone number
++                2. messages
++                3. chats
++                4. call register
++                5. tones
++                6. settings
++                7. call divert
++                8. games
++                9. calculator
++                10.reminder
++                11.clock
++                12.profiles
++                13.sim service
++                14. exit
++                """);
++        Scanner scanner = new Scanner(System.in);
++        System.out.println("Choose a Options:");
++        int options = scanner.nextInt();
++        Menu nokia = new Menu();
++
++        switch (options) {
++            case 1 : nokia.phoneBook();
++                break;
++            case 2 : nokia.messages();
++                break;
++            case 3 : System.out.println("Chats");
++                break;
++            case 4 : nokia.callRegister();
++                break;
++            case 5 : nokia.tones();
++                break;
++            case 6 :nokia.settings();
++                break;
++            case 7 : System.out.println("Call Divert");
++                break;
++            case 8 : System.out.println("Games");
++                break;
++            case 9 : System.out.println("Calculator");
++                break;
++            case 10: System.out.println("Remainders");
++                break;
++            case 11: nokia.clock();
++                break;
++            case 12: System.out.println("Profile");
++                break;
++            case 13: System.out.println("SIM Services");
++                break;
++            case 14: System.exit(0);
++                break;
++        }
++        return mainMenu();
++
+ 
+     }
++}
+ 
+-}
++
+ 
+ 
+Index: src/chapterfive/PhoneMenu.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package chapterfive;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class PhoneMenu {\r\n\r\n    public static void main(String[] args) {\r\n        Menu menu = new Menu();\r\n\r\n        System.out.println(\"\"\"\r\n                1. phone number\r\n                2. messages\r\n                3. chats\r\n                4. call register\r\n                5. tones\r\n                6. settings\r\n                7. call divert\r\n                8. games\r\n                9. calculator\r\n                10.reminder\r\n                11.clock\r\n                12.profiles\r\n                13.sim service\r\n                \"\"\");\r\n        Scanner scanner = new Scanner(System.in);\r\n        System.out.println(\"Choose a Options:\");\r\n        int options = scanner.nextInt();\r\n\r\n        switch (options) {\r\n            case 1 : menu.phoneBook();\r\n            break;\r\n            case 2 : menu.messages();\r\n            break;\r\n            case 3 : System.out.println(\"Chats\");\r\n            break;\r\n            case 4 : menu.callRegister();\r\n            break;\r\n            case 5 : menu.tones();\r\n            break;\r\n            case 6 :menu.settings();\r\n            break;\r\n            case 7 : System.out.println(\"Call Divert\");\r\n            break;\r\n            case 8 : System.out.println(\"Games\");\r\n            break;\r\n            case 9 : System.out.println(\"Calculator\");\r\n            break;\r\n            case 10: System.out.println(\"Remainders\");\r\n            break;\r\n            case 11: menu.clock();\r\n            break;\r\n            default: System.out.println(\" Enter the right option:\");\r\n            break;\r\n\r\n\r\n        }\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/chapterfive/PhoneMenu.java b/src/chapterfive/PhoneMenu.java
+--- a/src/chapterfive/PhoneMenu.java	(revision 89575dd34edf653522bddb4a6fa043ebd1c3257e)
++++ b/src/chapterfive/PhoneMenu.java	(date 1669543002102)
+@@ -49,8 +49,11 @@
+             break;
+             case 11: menu.clock();
+             break;
+-            default: System.out.println(" Enter the right option:");
++            case 12: System.out.println("Profile");
+             break;
++            case 13: System.out.println("SIM Services");
++            break;
++            default:menu.mainMenu();
+ 
+ 
+         }
+Index: src/chapterfive/Christmas.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/chapterfive/Christmas.java b/src/chapterfive/Christmas.java
+new file mode 100644
+--- /dev/null	(date 1669548757175)
++++ b/src/chapterfive/Christmas.java	(date 1669548757175)
+@@ -0,0 +1,36 @@
++package chapterfive;
++
++public class Christmas {
++
++    public String gift(int days) {
++        switch (days) {
++            case 12:
++                System.out.println("Twelve Drummer drumming");
++            case 11:
++                System.out.println("Eleven Pipers piping");
++            case 10:
++                System.out.println("Ten Lords a-leaping");
++            case 9:
++                System.out.println("Nine Ladies dancing");
++            case 8:
++                System.out.println("Eight Maid a-milking");
++            case 7:
++                System.out.println("Seven Swans are a-swimming ");
++            case 6:
++                System.out.println("Six Geese a-laying");
++            case 5:
++                System.out.println("Five Gold Rings");
++            case 4:
++                System.out.println("Four Calling Birds");
++            case 3:
++                System.out.println("Three French Hens");
++            case 2:
++                System.out.println("Two Turtle Dove");
++            case 1:
++                System.out.println("A Partridge in a Pear Tree");
++        }
++        return null;
++    }
++}
++
++
+Index: src/chapterfive/DaysOfChristmas1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/chapterfive/DaysOfChristmas1.java b/src/chapterfive/DaysOfChristmas1.java
+new file mode 100644
+--- /dev/null	(date 1669548757186)
++++ b/src/chapterfive/DaysOfChristmas1.java	(date 1669548757186)
+@@ -0,0 +1,88 @@
++package chapterfive;
++
++public class DaysOfChristmas1 {
++
++    public static void main(String[] args) {
++
++        Christmas presents = new Christmas();
++
++        int days = 1;
++        for (days = 1; days <= 12; days++) {
++
++            switch (days) {
++                case 1 -> {
++                    System.out.println("On the first day of christmas, my true love sent to me");
++                    presents.gift(days);
++                    System.out.println();
++
++                }
++                case 2 -> {
++                    System.out.println("On the second day of christmas, my true love sent to me");
++                    presents.gift(days);
++                    System.out.println();
++                }
++
++
++                case 3 -> {
++                    System.out.println("On the third day of christmas, my true love sent to me");
++                    presents.gift(days);
++                    System.out.println();
++                }
++
++                case 4 -> {
++                    System.out.println("On the fourth day of christmas, my true love sent to me");
++                    presents.gift(days);
++                    System.out.println();
++                }
++
++                case 5 -> {
++                    System.out.println("On the fifth day of christmas, my true love sent to me");
++                    presents.gift(days);
++                    System.out.println();
++                }
++
++                case 6 -> {
++                    System.out.println("On the sixth day of christmas, my true love sent to me");
++                    presents.gift(days);
++                    System.out.println();
++                }
++
++                case 7 -> {
++                    System.out.println("On the seventh day of christmas, my true love sent to me");
++                    presents.gift(days);
++                    System.out.println();
++                }
++
++                case 8 -> {
++                    System.out.println("On the eight day of christmas, my true love sent to me");
++                    presents.gift(days);
++                    System.out.println();
++                }
++
++                case 9 -> {
++                    System.out.println("On the ninth day of christmas, my true love sent to me");
++                    presents.gift(days);
++                    System.out.println();
++                }
++                case 10 -> {
++                    System.out.println("On the tenth day of christmas, my true love sent to me");
++                    presents.gift(days);
++                    System.out.println();
++                }
++
++                case 11 -> {
++                    System.out.println("On the eleventh day of christmas, my true love sent to me");
++                    presents.gift(days);
++                    System.out.println();
++                }
++
++                case 12 -> {System.out.println("On the twelve day of christmas, my true love sent to me");
++                    presents.gift(days);
++                    System.out.println();
++                }
++            }
++
++
++        }
++    }
++}
+Index: src/chapterfive/NokiaPhoneMenu.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/chapterfive/NokiaPhoneMenu.java b/src/chapterfive/NokiaPhoneMenu.java
+new file mode 100644
+--- /dev/null	(date 1669543244225)
++++ b/src/chapterfive/NokiaPhoneMenu.java	(date 1669543244225)
+@@ -0,0 +1,67 @@
++package chapterfive;
++
++import java.util.Scanner;
++
++public class NokiaPhoneMenu {
++    public static void main(String[] args) {
++        Menu nokia = new Menu();
++
++        System.out.println("""
++                1. phone number
++                2. messages
++                3. chats
++                4. call register
++                5. tones
++                6. settings
++                7. call divert
++                8. games
++                9. calculator
++                10.reminder
++                11.clock
++                12.profiles
++                13.sim service
++                14. exit
++                """);
++        Scanner scanner = new Scanner(System.in);
++        System.out.println("Choose a Options:");
++        int options = scanner.nextInt();
++
++        switch (options) {
++            case 1 : nokia.phoneBook();
++                break;
++            case 2 : nokia.messages();
++                break;
++            case 3 : System.out.println("Chats");
++                break;
++            case 4 : nokia.callRegister();
++                break;
++            case 5 : nokia.tones();
++                break;
++            case 6 :nokia.settings();
++                break;
++            case 7 : System.out.println("Call Divert");
++                break;
++            case 8 : System.out.println("Games");
++                break;
++            case 9 : System.out.println("Calculator");
++                break;
++            case 10: System.out.println("Remainders");
++                break;
++            case 11: nokia.clock();
++                break;
++            case 12: System.out.println("Profile");
++                break;
++            case 13: System.out.println("SIM Services");
++                break;
++            case 14:System.exit(0);
++                break;
++            default: nokia.mainMenu();
++
++
++        }
++
++    }
++
++
++
++}
