@@ -4,9 +4,7 @@ import assessment.guessGame.Player;
 
 import javax.swing.*;
 import java.awt.*;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.DuplicateFormatFlagsException;
 import java.util.Objects;
 
@@ -23,7 +21,7 @@ public class TikTaToe {
 
     private int noOfPlayers;
 
-    String playerChoice = "X";
+    String playerMarker = "X";
 
     int count = 0;
     private int input;
@@ -45,12 +43,12 @@ public class TikTaToe {
         }
     }
 
-    public void processingPosition(int input) {
-        validatePosition(input);
-        int index1 = input / 3;
-        int index2 = input % 3;
-        tikTaToeBoard[index1][index2] = playerChoice;
-        storePosition(input);
+    public void processingPosition(int userInput) {
+        validatePosition(userInput);
+        int row = userInput / 3;
+        int column = userInput % 3;
+        tikTaToeBoard[row][column] = playerMarker;
+        storePosition(userInput);
 
 
     }
@@ -88,27 +86,27 @@ public class TikTaToe {
     }
 
     public void resetPlayerChoice() {
-        if (playerChoice == "X") {
-            playerChoice = "O";
-        } else playerChoice = "X";
+        if (Objects.equals(playerMarker, "X")) {
+            playerMarker = "O";
+        } else playerMarker = "X";
     }
 
     public boolean isWon() {
-        if (Objects.equals(tikTaToeBoard[0][0], playerChoice) && Objects.equals(tikTaToeBoard[0][1], playerChoice) && Objects.equals(tikTaToeBoard[0][2], playerChoice))
+        if (Objects.equals(tikTaToeBoard[0][0], playerMarker) && Objects.equals(tikTaToeBoard[0][1], playerMarker) && Objects.equals(tikTaToeBoard[0][2], playerMarker))
             return isWon = true;
-        if (Objects.equals(tikTaToeBoard[1][0], playerChoice) && Objects.equals(tikTaToeBoard[1][1], playerChoice) && Objects.equals(tikTaToeBoard[1][2], playerChoice))
+        if (Objects.equals(tikTaToeBoard[1][0], playerMarker) && Objects.equals(tikTaToeBoard[1][1], playerMarker) && Objects.equals(tikTaToeBoard[1][2], playerMarker))
             return isWon = true;
-        if (Objects.equals(tikTaToeBoard[2][0], playerChoice) && Objects.equals(tikTaToeBoard[2][1], playerChoice) && Objects.equals(tikTaToeBoard[2][2], playerChoice))
+        if (Objects.equals(tikTaToeBoard[2][0], playerMarker) && Objects.equals(tikTaToeBoard[2][1], playerMarker) && Objects.equals(tikTaToeBoard[2][2], playerMarker))
             return isWon = true;
-        if (Objects.equals(tikTaToeBoard[0][0], playerChoice) && Objects.equals(tikTaToeBoard[1][0], playerChoice) && Objects.equals(tikTaToeBoard[2][0], playerChoice))
+        if (Objects.equals(tikTaToeBoard[0][0], playerMarker) && Objects.equals(tikTaToeBoard[1][0], playerMarker) && Objects.equals(tikTaToeBoard[2][0], playerMarker))
             return isWon = true;
-        if (Objects.equals(tikTaToeBoard[0][1], playerChoice) && Objects.equals(tikTaToeBoard[1][1], playerChoice) && Objects.equals(tikTaToeBoard[2][1], playerChoice))
+        if (Objects.equals(tikTaToeBoard[0][1], playerMarker) && Objects.equals(tikTaToeBoard[1][1], playerMarker) && Objects.equals(tikTaToeBoard[2][1], playerMarker))
             return isWon = true;
-        if (Objects.equals(tikTaToeBoard[0][2], playerChoice) && Objects.equals(tikTaToeBoard[1][2], playerChoice) && Objects.equals(tikTaToeBoard[2][2], playerChoice))
+        if (Objects.equals(tikTaToeBoard[0][2], playerMarker) && Objects.equals(tikTaToeBoard[1][2], playerMarker) && Objects.equals(tikTaToeBoard[2][2], playerMarker))
             return isWon = true;
-        if (Objects.equals(tikTaToeBoard[0][0], playerChoice) && Objects.equals(tikTaToeBoard[1][1], playerChoice) && Objects.equals(tikTaToeBoard[2][2], playerChoice))
+        if (Objects.equals(tikTaToeBoard[0][0], playerMarker) && Objects.equals(tikTaToeBoard[1][1], playerMarker) && Objects.equals(tikTaToeBoard[2][2], playerMarker))
             return isWon = true;
-        if (Objects.equals(tikTaToeBoard[0][2], playerChoice) && Objects.equals(tikTaToeBoard[1][1], playerChoice) && Objects.equals(tikTaToeBoard[2][0], playerChoice))
+        if (Objects.equals(tikTaToeBoard[0][2], playerMarker) && Objects.equals(tikTaToeBoard[1][1], playerMarker) && Objects.equals(tikTaToeBoard[2][0], playerMarker))
             return isWon = true;
         else return isWon = false;
     }

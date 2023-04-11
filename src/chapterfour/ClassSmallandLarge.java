@@ -10,13 +10,10 @@ public class ClassSmallandLarge {
         int smallest = number;
 
           do {
-              if (largest > number) {
-                  largest = number;
-              }
+              if (largest > number)  largest = number;
 
-              if (smallest < number) {
-                  smallest = number;
-              }
+              if (smallest < number)  smallest = number;
+
               System.out.print("Enter another number : ");
                number = input.nextInt();
           }

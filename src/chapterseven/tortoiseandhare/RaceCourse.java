@@ -5,7 +5,6 @@ import java.security.SecureRandom;
 public class RaceCourse {
     private final RaceTrack raceTrack;
 
-    private static final Pail pail= new Pail();
 
     public RaceCourse() {
         this.raceTrack = new RaceTrack();
@@ -21,8 +20,6 @@ public class RaceCourse {
     }
 
 
-    public Pail getPail() {
-        return pail;
-    }
+
 
 }

@@ -19,5 +19,15 @@ public class Example1 {
         numbers[0] = numbers[4];
         System.out.println(Arrays.toString(new int[]{numbers[0]}));
         System.out.println(Arrays.toString(numbers));
+
+        String[][] goods = new String[3][4];
+        int inbox = 0;
+
+        for (var inboxes: goods[inbox] ) {
+            if (inboxes.length() == 5) {
+                System.out.println();
+            }
+        }
+
     }
 }
