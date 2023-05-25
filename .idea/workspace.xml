@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0f3a8ab-46fc-4d74-a0c4-c4ce0349775a" name="Changes" comment="code war" />
+    <list default="true" id="d0f3a8ab-46fc-4d74-a0c4-c4ce0349775a" name="Changes" comment="code war">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter14String/DateValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter14String/TellMyAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter14String/dateValidator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter17/CllectorsJoining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter17/Collector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter17/Example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter17/Example3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter17/FiniteStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter17/FlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter17/PartitioningBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter17/PassByValueReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter17/StreamAssessment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter17/StreamsExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/UserNotInExistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/CollectionSample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/CollectionSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/CollectionTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/CustomerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2023_12_43_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2023_12_43__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2023_12_45_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2023_12_45__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_11_49_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_11_49_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_11_49__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_11_49__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regnosJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/regnosJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/HCF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/HCF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter15/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter15/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter15/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter15/test.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +49,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -27,7 +62,7 @@
         <entry key="$PROJECT_DIR$/src/classWork" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/classWork" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -47,11 +82,6 @@
     <setting file="file://$PROJECT_DIR$/src/classWork/NumberSampleApp.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/classWork/fractions.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="ArrayListTest.addXYZ_removeY_ZShouldBeInPositionOfY" />
-    </enabled-run-configurations>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -65,6 +95,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
@@ -76,23 +107,26 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/USER/IdeaProjects/regnosJava/src/chapterNineAndTen&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/myClassWork&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/jackson databind/jackson-datatype-jsr310-2.15.0-rc1.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="chapterEleven.chapterEleven2" />
       <recent name="chaptersix.GuessingGame" />
       <recent name="chapterNineAndTen" />
       <recent name="chapter10" />
       <recent name="EnumExample" />
-      <recent name="chapterEightProblem" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\IdeaProjects\regnosJava\src\tortoiseandhare" />
@@ -114,24 +148,24 @@
       <recent name="chapterfour" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="DSA" />
+      <recent name="chapterseven" />
+      <recent name="json.deserialization" />
+      <recent name="json.serialization" />
       <recent name="chapterEight.PhoneBook" />
-      <recent name="chapterEight.Diary" />
-      <recent name="chapterEight.Bank" />
-      <recent name="chaptersix.GuessingGame" />
-      <recent name="EnumExample" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="chaptersix.GuessingGame" />
       <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assessment.guessGame.Main" />
+  <component name="RunManager">
+    <configuration name="FiniteStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter17.FiniteStream" />
       <module name="regnosJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assessment.guessGame.*" />
+          <option name="PATTERN" value="Chapter17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,76 +173,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter17.FlatMap" />
       <module name="regnosJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter10.*" />
+          <option name="PATTERN" value="Chapter17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chapter10" />
-      <option name="MAIN_CLASS_NAME" value="chapter10.ArrayListTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest.addElement_arrayListSizeIncreases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamAssessment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter17.StreamAssessment" />
       <module name="regnosJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter10.*" />
+          <option name="PATTERN" value="Chapter17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chapter10" />
-      <option name="MAIN_CLASS_NAME" value="chapter10.ArrayListTest" />
-      <option name="METHOD_NAME" value="addElement_arrayListSizeIncreases" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest.addXYZ_removeY_ZShouldBeInPositionOfY" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamsExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter17.StreamsExample1" />
       <module name="regnosJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter10.*" />
+          <option name="PATTERN" value="Chapter17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chapter10" />
-      <option name="MAIN_CLASS_NAME" value="chapter10.ArrayListTest" />
-      <option name="METHOD_NAME" value="addXYZ_removeY_ZShouldBeInPositionOfY" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest.arrayListCanBeCreatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TellMyAge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter14String.TellMyAge" />
       <module name="regnosJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter10.*" />
+          <option name="PATTERN" value="Chapter14String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chapter10" />
-      <option name="MAIN_CLASS_NAME" value="chapter10.ArrayListTest" />
-      <option name="METHOD_NAME" value="arrayListCanBeCreatedTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArrayListTest.arrayListCanBeCreatedTest" />
-        <item itemvalue="JUnit.ArrayListTest.addXYZ_removeY_ZShouldBeInPositionOfY" />
-        <item itemvalue="JUnit.ArrayListTest.addElement_arrayListSizeIncreases" />
-        <item itemvalue="JUnit.ArrayListTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FlatMap" />
+        <item itemvalue="Application.StreamAssessment" />
+        <item itemvalue="Application.FiniteStream" />
+        <item itemvalue="Application.StreamsExample1" />
+        <item itemvalue="Application.TellMyAge" />
       </list>
     </recent_temporary>
   </component>
@@ -251,6 +274,27 @@
       <workItem from="1677158442911" duration="159000" />
       <workItem from="1677158609671" duration="59000" />
       <workItem from="1677158678571" duration="267000" />
+      <workItem from="1677158952719" duration="319000" />
+      <workItem from="1677159477376" duration="60000" />
+      <workItem from="1677159553657" duration="12300000" />
+      <workItem from="1677289126646" duration="4731000" />
+      <workItem from="1677761779567" duration="1072000" />
+      <workItem from="1678147374487" duration="1945000" />
+      <workItem from="1678801119777" duration="4903000" />
+      <workItem from="1678882552595" duration="2254000" />
+      <workItem from="1679007996565" duration="7931000" />
+      <workItem from="1679302400032" duration="5773000" />
+      <workItem from="1679393199140" duration="16816000" />
+      <workItem from="1679670948459" duration="62399000" />
+      <workItem from="1680634636160" duration="23155000" />
+      <workItem from="1681249304483" duration="1807000" />
+      <workItem from="1681306155728" duration="2545000" />
+      <workItem from="1681409816476" duration="16062000" />
+      <workItem from="1681561795985" duration="597000" />
+      <workItem from="1681650822626" duration="596000" />
+      <workItem from="1681727343677" duration="15055000" />
+      <workItem from="1683396345442" duration="12341000" />
+      <workItem from="1683712996816" duration="19720000" />
     </task>
     <task id="LOCAL-00001" summary="chibuzor's trouble">
       <created>1669176709654</created>
@@ -317,6 +361,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/src" />
+      <path value="$PROJECT_DIR$/src/classWork" />
+    </ignored-roots>
     <MESSAGE value="chibuzor's trouble" />
     <MESSAGE value="code war" />
     <option name="LAST_COMMIT_MESSAGE" value="code war" />

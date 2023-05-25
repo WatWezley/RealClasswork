@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class HCF {
 
     public static void main(String[] args) {
-    ArrayList<Integer> HCF = HcfComputation(36, 90, 270);
+        ArrayList<Integer> HCF = HcfComputation(60, 120, 300);
         System.out.println(HCF);
 
     }
@@ -34,11 +34,10 @@ public class HCF {
             if (count == numbers2.length) {
                 divisors.add(divisor);
                 for (int element2 = 0; element2 < numbers2.length; element2++) {
-
                     int multiples = numbers2[element2] / divisor;
                     numbers2[element2] = multiples;
                 }
-                divisor = 2;
+                divisor--;
             }
         }
 
